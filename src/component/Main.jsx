@@ -7,7 +7,6 @@ import i18next from 'i18next';
 export default function Main() {
 
     const { t } = useTranslation();
-
     function handleClick(lang) {
         i18next.changeLanguage(lang)
     }
@@ -16,8 +15,8 @@ export default function Main() {
         <div>
             <nav>
                 <button onClick={()=>handleClick('en')}> English </button>
-                <button onClick={()=>handleClick('arb')}> Korean </button>
-                <button onClick={()=>handleClick('arm')}> Chinese </button>
+                <button onClick={()=>handleClick('arb')}> العربية </button>
+                <button onClick={()=>handleClick('arm')}> Հայերեն </button>
             </nav>
             <header className="App-header">
                 <h3>{t('Welcome.1')} {t('React.1')}</h3>
