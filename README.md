@@ -1,1 +1,1 @@
-### !Read --> [Click here](https://github.com/harut0111/Code-Share/blob/master/react-i18next-translation.md)
+### ! Read --> [Click here](https://github.com/harut0111/Code-Share/blob/master/react-i18next-translation.md)
